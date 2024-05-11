@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class AD_MoveNegativeElementsOneSide {
 
 	public static void main(String[] args) {
-		int[] a = {-90, 5, 7 , -9, -7, 1, 2, 4, -5, -6, -7, -8, 4, 3, 2, 12, -65, 7, -8};
+		int[] a = {-90, 5, 7 , -9, -7, 1, 2, 4, 0, -5, -6, -7, -8, 4, 3, 2, 12, -65, 7, -8};
 		
 		// 1. With sorting -> O(n^2)
 		int[] sortedArr = sortAnArray(a);
