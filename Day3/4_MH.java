@@ -16,7 +16,7 @@ public class MaxSubarraySum {
             if (testSum < 0) {
                 testSum = 0;
             }
-            currentSum += arr[i];
+            testSum += arr[i];
 
             // Update max sum
             if (testSum > maxSum) {
