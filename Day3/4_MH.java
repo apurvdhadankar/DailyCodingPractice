@@ -2,7 +2,7 @@ public class MaxSubarraySum {
     public static void main(String[] args) {
         int[] arr = {-4, 5, -2, 1, -2, 1, 5, -1, 4};
         int maxSum = findMaxSubarraySum(arr);
-        System.out.println("Maximum subarray sum: " + maxSum);
+        System.out.println("Maximum subarray sum: " + maxSum); // Print sub array as well
     }
 
     public static int findMaxSubarraySum(int[] arr) {
