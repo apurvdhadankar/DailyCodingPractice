@@ -22,35 +22,6 @@ public class FindCommonElementsInThreeSortedArrays {
 
 	}
 
-	private static void usingThreePointersTechnique(int[] a, int[] b, int[] c) 
-	{
-		int i =0, j=0, k=0;
-		System.out.print("Common elements using three pointers: ");
-		while (i< a.length && j<b.length && k < c.length)
-		{
-			if (a[i] == b[j] && b[j] == c[k])
-			{
-				System.out.print(a[i]+" ");
-				i++;
-				j++;
-				k++;
-			}
-			else if (a[i] < b[j])
-			{
-				i++;
-			}
-			else if (b[j] < c[k])
-			{
-				j++;
-			}
-			else 
-			{
-				k++;
-			}
-		}
-		
-	}
-
 	private static void usingHashSet(int[] a, int[] b, int[] c) {
 		HashSet<Integer> set1 = new HashSet<Integer>();
 		HashSet<Integer> set2 = new HashSet<Integer>();
@@ -128,4 +99,32 @@ public class FindCommonElementsInThreeSortedArrays {
 		//System.out.println(Arrays.toString(tempArr));
 	}
 
+	private static void usingThreePointersTechnique(int[] a, int[] b, int[] c) 
+	{
+		int i =0, j=0, k=0;
+		System.out.print("Common elements using three pointers: ");
+		while (i< a.length && j<b.length && k < c.length)
+		{
+			if (a[i] == b[j] && b[j] == c[k])
+			{
+				System.out.print(a[i]+" ");
+				i++;
+				j++;
+				k++;
+			}
+			else if (a[i] < b[j])
+			{
+				i++;
+			}
+			else if (b[j] < c[k])
+			{
+				j++;
+			}
+			else 
+			{
+				k++;
+			}
+		}
+		
+	}
 }
