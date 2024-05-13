@@ -1,3 +1,4 @@
+
 1. Find common elements in three sorted arrays
 ### Input:
 Three sorted arrays of integers, let's call them `arr1`, `arr2`, and `arr3`.
@@ -39,7 +40,10 @@ There are four subarrays with an equal number of 0s and 1s: [0, 1], [1, 0], [0, 
 -------------------------------------------------------------------------------------
 3. Rearrange the array in alternating positive and negative items
 
-Given an array having positive and negative numbers, our task is to arrange them in an alternate fashion such that every positive number is followed by a negative number and vice-versa maintaining the order of appearance. The number of positive and negative numbers need not to be equal. If there are more positive numbers then they have to appear at the end of the array , same condition for negative numbers also .
+Given an array having positive and negative numbers, our task is to arrange them in an alternate fashion such that every positive number
+is followed by a negative number and vice-versa maintaining the order of appearance. The number of positive and negative numbers need 
+not to be equal. If there are more positive numbers then they have to appear at the end of the array , 
+same condition for negative numbers also .
 
 Input:  arr[] = {1, 2, 3, -4, -1, 4}
 Output: arr[] = {-4, 1, -1, 2, 3, 4}
