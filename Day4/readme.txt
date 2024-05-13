@@ -38,6 +38,16 @@ Explanation:
 There are four subarrays with an equal number of 0s and 1s: [0, 1], [1, 0], [0, 1], [1, 0].
 -------------------------------------------------------------------------------------
 3. Rearrange the array in alternating positive and negative items
+
+Given an array having positive and negative numbers, our task is to arrange them in an alternate fashion such that every positive number is followed by a negative number and vice-versa maintaining the order of appearance. The number of positive and negative numbers need not to be equal. If there are more positive numbers then they have to appear at the end of the array , same condition for negative numbers also .
+
+Input:  arr[] = {1, 2, 3, -4, -1, 4}
+Output: arr[] = {-4, 1, -1, 2, 3, 4}
+
+Input:  arr[] = {-5, -2, 5, 2, 4, 7, 1, 8, 0, -8}
+Output: arr[] = {-5, 5, -2, 2, -8, 4, 7, 1, 8, 0}
+
+
 Input:
 An array of integers.
 
