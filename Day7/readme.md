@@ -19,9 +19,10 @@ Certainly, here are examples for each problem:
    - Input: Array1 = [1, 3, 5], Array2 = [2, 4, 6]
    - Explanation: After merging the two arrays, the combined sorted array is [1, 2, 3, 4, 5, 6]. The median of this array is the average of the middle two elements, which are 3 and 4, median is (3 + 4) / 2 = 3.5.
    - Expected Output: Median = 3.5
-<img src="https://github.com/apurvdhadankar/DailyCodingPractice/assets/77914287/d9339842-e412-4cb4-9e6b-727cc0a6ad64" align="center" height="350" width="600"/>
 
 4. **Median of two sorted arrays of different sizes:**
    - Input: Array1 = [1, 3, 8, 9, 15], Array2 = [7, 11, 18, 19, 21, 25]
    - Explanation: After merging the two arrays, the combined sorted array is [1, 3, 7, 8, 9, 11, 15, 18, 19, 21, 25]. The median of this array is the middle element, which is 11.
    - Expected Output: Median = 11
+<img src="https://prepinstadotcom.s3.ap-south-1.amazonaws.com/wp-content/uploads/2022/04/Median-of-2-sorted-arrays-of-different-size-in-Python.webp" align="center" height="350" width="600"/>
+
