@@ -12,14 +12,14 @@ Certainly, here are examples for each problem:
    - Input: Array = [1, 4, 1]
    - Explanation: To make the array [1, 4, 1] a palindrome, we need to change the second element (4) to 1, resulting in [1, 1, 1].
    - Expected Output: Minimum operations required = 1
-![image](https://github.com/apurvdhadankar/DailyCodingPractice/assets/77914287/9023888b-c919-44a1-a406-27ab943a2b2b)
+<img src="https://github.com/apurvdhadankar/DailyCodingPractice/assets/77914287/9023888b-c919-44a1-a406-27ab943a2b2b" align="center" height="350" width="600"/>
 
 
 3. **Median of two sorted arrays of equal size:**
    - Input: Array1 = [1, 3, 5], Array2 = [2, 4, 6]
    - Explanation: After merging the two arrays, the combined sorted array is [1, 2, 3, 4, 5, 6]. The median of this array is the average of the middle two elements, which are 3 and 4, median is (3 + 4) / 2 = 3.5.
    - Expected Output: Median = 3.5
-![image](https://github.com/apurvdhadankar/DailyCodingPractice/assets/77914287/d9339842-e412-4cb4-9e6b-727cc0a6ad64)
+<img src="https://github.com/apurvdhadankar/DailyCodingPractice/assets/77914287/d9339842-e412-4cb4-9e6b-727cc0a6ad64" align="center" height="350" width="600"/>
 
 4. **Median of two sorted arrays of different sizes:**
    - Input: Array1 = [1, 3, 8, 9, 15], Array2 = [7, 11, 18, 19, 21, 25]
