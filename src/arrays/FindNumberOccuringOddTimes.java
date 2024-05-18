@@ -10,6 +10,8 @@ public class FindNumberOccuringOddTimes {
 		
 		findNumberOccuringOddTimeUsingHashing(a); // O(n) O(n)
 		System.out.println(usingTwoLoops(a)); // O(n^2)
+		
+		System.out.println(findOddOccurenceNumberUsingXOR(a));
 	}
 
 	private static int usingTwoLoops(int[] a)
@@ -56,6 +58,17 @@ public class FindNumberOccuringOddTimes {
 				System.out.println(i);
 			}
 		}
+	}
+	
+	private static int findOddOccurenceNumberUsingXOR(int[] a)
+	{
+		int res = 0;
+		for (int i=0; i<a.length; i++)
+		{
+			res = res ^ a[i];
+		}
+		
+		return res;
 	}
 
 }
