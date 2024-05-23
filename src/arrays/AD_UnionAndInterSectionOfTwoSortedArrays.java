@@ -6,8 +6,11 @@ import java.util.Set;
 public class AD_UnionAndInterSectionOfTwoSortedArrays {
 
 	public static void main(String[] args) {
-		int[] a = {1, 3, 4, 5, 7, 9, 11};
-		int[] b = {2, 4, 6, 7, 8, 10};
+//		int[] a = {1, 3, 4, 5, 7, 9, 11};
+//		int[] b = {2, 4, 6, 7, 8, 10};
+		
+		int[] a = {4, 9, 5};
+		int[] b = {9,4,9,8,4};
 		// op: Union-> 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
 		// Intersection: 4, 7
 		printUnionAndIntersection(a, b); // two pointers O(a + b)
