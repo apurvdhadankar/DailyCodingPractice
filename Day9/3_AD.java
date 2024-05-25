@@ -11,9 +11,9 @@ public class FindMinMax2DArray {
 		
 		int min = Integer.MAX_VALUE, max = Integer.MIN_VALUE;
 		
-		for (int i=0; i<a.length; i++)
+		for (int i=0; i<a.length; i++) //row
 		{
-			for (int j=0; j<a[i].length; j++)
+			for (int j=0; j<a[i].length; j++) //col
 			{
 				if (a[i][j] < min)
 				{
